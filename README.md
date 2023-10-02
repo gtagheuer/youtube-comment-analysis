@@ -1,10 +1,17 @@
 # YouTube コメント分析ダッシュボード
 ## 目的
 YouTube に投稿された自社製品や他社製品の動画に対するコメント（消費者の声）を分析することで、商品開発やブランドイメージの向上に活用する。  
+
 ## アーキテクチャ
-ここに全体アーキテクチャの画像を貼る。
+### ハイレベルアーキテクチャ
+<img width="1440" alt="image" src="https://github.com/gtagheuer/youtube-comment-analysis/assets/653609/ab98c8ff-40d7-4425-84a0-8ac0d33e3713">
+
+### 詳細アーキテクチャ
+<img width="1440" alt="image" src="https://github.com/gtagheuer/youtube-comment-analysis/assets/653609/130f1137-5a71-46b3-8db4-9913532fd8df">
+
 ## 完成イメージ図
-ここに Looker Studio の画像を数枚貼る。
+<img width="1314" alt="image" src="https://github.com/gtagheuer/youtube-comment-analysis/assets/653609/c1d39266-a822-42ba-b45b-6e08c2008dc6">
+
 ## 注意
 本プロジェクトでは Google Cloud の製品を利用するので料金が掛かります。  
 費用の大半はコメントの感情分析を行う Cloud Natural Language API です。  
@@ -41,14 +48,14 @@ YouTube に投稿された自社製品や他社製品の動画に対するコメ
 6. YouTube コメント分析ダッシュボードの作成に必要なファイルをダウンロードしましょう。  
    下記のコマンドを実行してください。
    ```shell
-   git clone https://-----------
+   git clone https://github.com/gtagheuer/youtube-comment-analysis
    ```
    ダウンロードが終わった後に先程の `ls` コマンドを打ってみましょう。  
-   新たに `XXXXXXXXXXXXXX` というディレクトリが見えているはずです。  
+   新たに `youtube-comment-analysis` というディレクトリが見えているはずです。  
    今後はこのディレクトリで作業するので、そちらに移動しましょう。
    下記のコマンドを実行してください。
    ```shell
-   cd XXXXXXXXXXXXXX
+   cd youtube-comment-analysis
    ```
    もう一度 `ls` してみましょう。  
    今度はたくさんのファイルやフォルダが見えるはずです。
