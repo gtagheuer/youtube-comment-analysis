@@ -1,0 +1,58 @@
+[
+    {
+      "name": "product_id",
+      "type": "STRING"
+    },
+    {
+        "name": "product_name",
+        "type": "STRING"
+    },
+    {
+        "name": "product_group",
+        "type": "STRING"
+    },
+    {
+      "name": "video_id",
+      "type": "STRING"
+    },
+    {
+      "name": "comment_id",
+      "type": "STRING"
+    },
+    {
+        "name": "comment_published_at",
+        "type": "TIMESTAMP"
+    },
+    {
+        "name": "comment_author_name",
+        "type": "STRING"
+    },
+    {
+        "name": "comment_author_image_url",
+        "type": "STRING"
+    },
+    {
+        "name": "comment_like_count",
+        "type": "INTEGER"
+    },
+    {
+        "name": "comment_text",
+        "type": "STRING"
+    },
+    {
+        "name": "comment_sentiment",
+        "type": "STRING"
+    },
+    {
+        "name": "comment_sentiment_score",
+        "type": "FLOAT"
+    },
+    {
+        "name": "comment_sentiment_magnitude",
+        "type": "FLOAT"
+    },
+    {
+        "name": "region_code",
+        "type": "STRING"
+    }
+]

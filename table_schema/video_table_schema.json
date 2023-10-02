@@ -1,0 +1,66 @@
+[
+    {
+      "name": "product_id",
+      "type": "STRING"
+    },
+    {
+        "name": "product_name",
+        "type": "STRING"
+    },
+    {
+      "name": "product_group",
+      "type": "STRING"
+    },
+    {
+      "name": "video_id",
+      "type": "STRING"
+    },
+    {
+      "name": "video_url",
+      "type": "STRING"
+    },
+    {
+        "name": "video_published_at",
+        "type": "TIMESTAMP"
+    },
+    {
+        "name": "video_title",
+        "type": "STRING"
+    },
+    {
+        "name": "video_description",
+        "type": "STRING"
+    },
+    {
+        "name": "video_thumbnail_url",
+        "type": "STRING"
+    },
+    {
+        "name": "video_view_count",
+        "type": "INTEGER"
+    },
+    {
+        "name": "video_like_count",
+        "type": "INTEGER"
+    },
+    {
+        "name": "video_favorite_count",
+        "type": "INTEGER"
+    },
+    {
+        "name": "video_comment_count",
+        "type": "INTEGER"
+    },
+    {
+        "name": "video_channel_id",
+        "type": "STRING"
+    },
+    {
+        "name": "video_channel_title",
+        "type": "STRING"
+    },
+    {
+        "name": "region_code",
+        "type": "STRING"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+      "name": "product_id",
+      "type": "STRING"
+    },
+    {
+      "name": "product_name",
+      "type": "STRING"
+    },
+    {
+      "name": "product_group",
+      "type": "STRING"
+    },
+    {
+      "name": "region_code",
+      "type": "STRING"
+    }
+]
